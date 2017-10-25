@@ -1,0 +1,38 @@
+rem echo Downloading graphs
+rem git clone "https://SuzanneMcC:123piggy@github.com/SuzanneMcC/DATAS_Kepak_Graphs.git"
+rem cd DATAS_Kepak_Graphs
+rem git checkout sue-edit
+rem start "Installing Graphs" npm install --save ^&^& exit
+rem cd ..\
+rem echo Installed Graphs
+echo Downloading EOL ScaleDriver
+git clone "https://SuzanneMcC:123piggy@github.com/SuzanneMcC/DATAS_Kepak_EOL_ScaleDriver.git"
+cd DATAS_Kepak_EOL_ScaleDriver
+start "Installing EOL ScaleDriver" npm install --save ^&^& exit
+cd ..\
+echo Installed EOL ScaleDriver
+echo Installing EOL SERVER
+git clone "https://SuzanneMcC:123piggy@github.com/SuzanneMcC/DATAS_EOL_SERVER.git"
+cd DATAS_EOL_SERVER
+start "Installing EOL SERVER" npm install --save ^&^& exit
+cd ..\
+echo Installed EOL SERVER
+echo Installing SOL ScaleDriver
+git clone https://SuzanneMcC:123piggy@github.com/SuzanneMcC/DATAS_Kepak_SOL_ScaleDriver.git
+cd DATAS_Kepak_SOL_ScaleDriver
+start "Installing SOL ScaleDriver" npm install --save ^&^& exit
+cd ..\
+echo Installed SOL ScaleDriver
+echo Installing SOL SERVER
+git clone https://SuzanneMcC:123piggy@github.com/SuzanneMcC/DATAS_SOL_SERVER.git
+cd DATAS_SOL_SERVER
+start "Installing SOL SERVER" npm install --save ^&^& exit
+cd ..\
+echo Installed SOL SERVER
+rem echo Installing Yielder SERVER
+rem git clone https://SuzanneMcC:123piggy@github.com/SuzanneMcC/Yielder_svr_production.git
+rem cd Yielder_svr_production
+rem git checkout realtime
+rem start "Installing Yielder Server" npm install --save ^&^& exit
+rem cd ..\
+rem echo Installed Yielder SERVER

@@ -1,0 +1,4 @@
+git add .
+git commit -m "message"
+git remote add origin https://github.com/SuzanneMcC/Yielder_Beef_Install.git
+git push
