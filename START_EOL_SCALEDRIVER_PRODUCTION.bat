@@ -1,2 +1,2 @@
 set NODE_ENV=production
-node bin\www
+node app.js
