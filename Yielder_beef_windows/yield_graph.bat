@@ -1,0 +1,1 @@
+start /MAX firefox 192.168.2.36:5500

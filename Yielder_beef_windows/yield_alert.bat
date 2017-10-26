@@ -1,0 +1,1 @@
+start /MAX chrome 192.168.2.36:5500/status_display
